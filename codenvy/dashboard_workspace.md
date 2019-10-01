@@ -5,6 +5,7 @@
 Caso a sua conta seja gratuita, você tem o limite de apenas um workspace (3GB de RAM). Neste caso, é interessante verificar se você já tem algum workspace criado, pois será necessário excluí-lo.
 
 Siga para a seção _Workspaces_, no canto superior esquerdo, e selecione o container desejado. Após selecionar, clique em _Delete_ e confirme a exclusão clicando em _Delete_ novamente e aguarde até que uma mensagem de sucesso apareça na tela.
+
 ![Dashboard com projetos já inicializados](../images/codenvy/workspace_mais.png)
 
 ![Dashboard como deletar](../images/codenvy/delete.png)
