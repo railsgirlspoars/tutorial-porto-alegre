@@ -1,4 +1,4 @@
-# Vamos começar a criar nosso blog?
+# Vamos começar a criar seu primeiro projeto Rails, um blog?
 
 No terminal, garanta que você está na pasta do projeto `railsgirls` com o comando:
 
