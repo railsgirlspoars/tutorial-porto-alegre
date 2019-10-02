@@ -60,7 +60,7 @@ Vamos ver o que temos aparece no navegador agora. Provalmente vamos ter em nosso
 http://localhost:3000
 ```
 
-![Terminal com informações de link](../images/rails/link.png)
+![Terminal com informações de link](../images/rails/link_server.png)
 
 
 Ops temos um erro aqui!!!
@@ -82,7 +82,7 @@ server-3000-tcp     Address: node20.codenvy.io:37494
 ```
 Pode ser que o inicio "node20" ou o final do link apos os ":" esteja direferete, não se preocupe isso é a configuração do seu workspace.
 
-![Caminho para chegar a configuração do nosso workspace](../images/rails/link_server.png)
+![Caminho para chegar a configuração do nosso workspace](../images/rails/link_correto.png)
 
 
 Vamos ver o que temos aparece no navegador agora. Como já executamos o comando de do codenvy, não precisamos executá-lo novamente. É só clicar no link do browser!
