@@ -1,4 +1,4 @@
-# Vamos começar a criar seu primeiro projeto Rails, um blog?
+# Vamos começar a criar seu primeiro projeto Rails
 
 No terminal, garanta que você está na pasta do projeto `railsgirls` com o comando:
 
@@ -8,6 +8,13 @@ pwd
 > /projects/railsgirls
 ```
 Depois de garantir que estamos na pasta certa, vamos executar este comando:
+
+```sh
+bundle install
+```
+O comando acima vai instalar alguns pacotes que vão nos ajudar a trabalhar com o Rails on Ruby em nossa aplicação.
+
+![Instalação bunble](../images/rails/instalacao_bundle.png)
 
 ```sh
 rails generate scaffold Post title:string text:text author:string created_date:datetime published_date:datetime
