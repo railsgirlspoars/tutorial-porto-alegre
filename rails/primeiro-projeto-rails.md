@@ -62,14 +62,14 @@ http://localhost:3000
 ![Terminal com informações de link](../images/rails/link_server.png)
 
 
-Ops temos um erro aqui!!!
+Ops temos um erro aqui!!! Esse link não está funcionando!
 
-![Erro no navegador que não consegue acessar](../images/rails/erro-do-link.png)
+![Erro no navegador que não consegue acessar o nosso link](../images/rails/erro-do-link.png)
 
 
 Mas fique calma, é bem simples resolver essa questão. Vamos até _deshboard_, depois clicamos no nosso _workspace_. 
 
-![Caminho para chegar a configuração do nosso workspace](../images/rails/ajuste_erro_navegador.png)
+![Caminho para chegar a configuração do nosso workspace](../images/rails/caminho_ajuste_link.png)
 
 
 Logo apos o clique, vai abrir algumas configuraçõoes, va até a aba _Server_,
@@ -81,7 +81,7 @@ server-3000-tcp     Address: node20.codenvy.io:37494
 ```
 Pode ser que o inicio "node20" ou o final do link apos os ":" esteja direferete, não se preocupe isso é a configuração do seu workspace.
 
-![Caminho para chegar a configuração do nosso workspace](../images/rails/link_correto.png)
+![Caminho para chegar a configuração do nosso workspace](../images/rails/link_correto_pelo_server.png)
 
 
 ### Uma observação muito importante!
