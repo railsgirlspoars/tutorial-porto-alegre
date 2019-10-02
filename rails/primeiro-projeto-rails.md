@@ -41,13 +41,51 @@ Ao longo do tutorial vamos mexendo nesses arquivos gerados ;)
 
 CONTINUANDOOO
 
-No terminal você verá algo como a imagem abaixo, estes são todos os arquivos que ele cria. Neles estão incluídos os arquivos com código ruby, que faŕa tudo funcionar, e também com HTML, que é o que veremos no navegador.
+No terminal você verá uma lista da relação de arquivos, estes são todos os arquivos que ele cria. Neles estão incluídos os arquivos com código ruby, que faŕa tudo funcionar, e também com HTML, que é o que veremos no navegador.
 
-![Arquivos](../images/rails/arquivos_blog.png)
+![Arquivos gerados pelo nosso comando anterior](../images/rails/arquivos_blog.png)
+
+Para rodar nosso projeto vamos digitar o comando abaixo:
+
+```sh
+rails server
+```
+
 
 ### Verificando se tudo está funcionando
 
-Vamos ver o que temos aparece no navegador agora. Como já executamos o comando de `run` do codenvy, não precisamos executá-lo novamente. É só clicar no link do browser!
+Vamos ver o que temos aparece no navegador agora. Provalmente vamos ter em nosso consele o seguinte link para acessar:
+
+```sh
+http://localhost:3000
+```
+
+![Terminal com informações de link](../images/rails/link.png)
+
+
+Ops temos um erro aqui!!!
+
+![Erro no navegador que não consegue acessar](../images/rails/erro-do-link.png)
+
+
+Mas fique calma, é bem simples resolver essa questão. Vamos até _deshboard_, depois clicamos no nosso _workspace_. 
+
+![Caminho para chegar a configuração do nosso workspace](../images/rails/ajuste_erro_navegador.png)
+
+
+Logo apos o clique, vai abrir algumas configuraçõoes, va até a aba _Server_,
+vamos ter uma lista com varios acessos aos links de acesso a servidores. 
+Nesse caso vamos até a linha:
+
+```sh
+server-3000-tcp     Address: node20.codenvy.io:37494
+```
+Pode ser que o inicio "node20" ou o final do link apos os ":" esteja direferete, não se preocupe isso é a configuração do seu workspace.
+
+![Caminho para chegar a configuração do nosso workspace](../images/rails/link_server.png)
+
+
+Vamos ver o que temos aparece no navegador agora. Como já executamos o comando de do codenvy, não precisamos executá-lo novamente. É só clicar no link do browser!
 
 ![Erro](../images/rails/erro_migracao.png)
 
