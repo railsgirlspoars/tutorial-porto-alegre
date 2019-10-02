@@ -92,9 +92,11 @@ Nesse caso em algun momento vomos precisar digitar a sequencia de comandos abaix
 ```sh
 cd railsgirls
 
+bundle install
+
 rails server
 ```
-
+Quando rodarmos novamente o comando para a nossa aplicação funcionar,  nosso link de acesso pode alterar, e vamos precisar buscar novamente nas informações de _server_.
 
 # Temos mais uns erros aqui!
 
