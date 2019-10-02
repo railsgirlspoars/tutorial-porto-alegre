@@ -51,7 +51,6 @@ Para rodar nosso projeto vamos digitar o comando abaixo:
 rails server
 ```
 
-
 ### Verificando se tudo está funcionando
 
 Vamos ver o que temos aparece no navegador agora. Provalmente vamos ter em nosso consele o seguinte link para acessar:
@@ -85,11 +84,27 @@ Pode ser que o inicio "node20" ou o final do link apos os ":" esteja direferete,
 ![Caminho para chegar a configuração do nosso workspace](../images/rails/link_correto.png)
 
 
-Vamos ver o que temos aparece no navegador agora. Como já executamos o comando de do codenvy, não precisamos executá-lo novamente. É só clicar no link do browser!
+### Uma observação muito importante!
 
-![Erro](../images/rails/erro_migracao.png)
+Estamos trabalhando com  uma ferremante free, e como toda ferramenta que é de acesso gratuito temos algumas limitações. O codenvy tem um tempo de 10 minutos para deixar o workspace ativo e com nossa aplicação rodando. 
+Nesse caso em algun momento vomos precisar digitar a sequencia de comandos abaixo para rodar nossa aplicação novamente: 
 
-Ooops, algo estranho aconteceu. Esse é o nosso primeiro erro, sempre que algo não estiver correto, o Rails irá avisar a gente com uma tela parecida com a da imagem, informando o erro que está acontecendo.
+```sh
+cd railsgirls
+
+rails server
+```
+
+
+# Temos mais uns erros aqui!
+
+Vamos ver o que temos aparece no navegador agora. Como já executamos o comando para rodar nossa aplicação noo codenvy, não precisamos executá-lo novamente (a não ser na situação do workspace ter atingido o tempo limite).
+
+É só abrir o link no browser que pegamos nas consfigurações do server!
+
+![Erro do Rails on Ruby](../images/rails/erro_migracao.png)
+
+Ooops, algo estranho aconteceu. Esse é o nosso primeiro erro referente a nossa aplicação, sempre que algo não estiver correto, o Rails irá avisar a gente com uma tela parecida com a da imagem, informando o erro que está acontecendo.
 
 Como o idioma do Rails é inglês, essas mensagens serão em inglês, mas você sempre pode usar o Google Tradutor, se precisar.
 
