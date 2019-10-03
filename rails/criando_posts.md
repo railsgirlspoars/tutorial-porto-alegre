@@ -9,7 +9,7 @@ Podemos preencher os campos com as informações do post e clicar no botão **Cr
 
 ![Novo post](../images/rails/novo_post.png)
 
-Após clicar no botão **Create Post**, vamos ir para uma página como a imagem abaixo.
+Após clicar no botão **Create Post**, vamos ir para uma página e vai ter a lista com os post que criamos.
 
 ![Post criado](../images/rails/post_criado.png)
 

@@ -10,6 +10,35 @@ body {
   font-family: "Lucida Console", Monaco, monospace
 }
 
+h1 {
+  background: red;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.adicionar-post {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.adicionar-post a {
+  border: solid 1px #cccccc;
+  background: #ccc;
+  padding: 10px;
+  display: inline-block;
+  float: right;
+}
+
+.adicionar-post a:hover {
+  border: solid 1px #000;
+  background: #000;
+  color:#fff;
+}
+
 a {
   color: #000;
   padding: 5px;
@@ -32,21 +61,20 @@ a {
 }
 
 .post {
-    margin-right: 15px;
+    margin-right: 5px;
     margin-bottom: 70px;
+    border: solid 1px red;
+    padding: 15px;
 }
 .post h2 {
     color: #2c0335;
     border-bottom: 1px dashed #550b84;
     padding-bottom: 10px;
-}
-
-.adicionar-post {
-  float: right;
+    font-family: 'Gochi Hand', cursive;
 }
 
 #posts {
-  margin: 0 50px 0 50px;
+  margin: 0 20px 0 20px;
 }
 ```
 

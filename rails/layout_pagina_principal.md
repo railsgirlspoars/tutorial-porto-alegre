@@ -38,11 +38,11 @@ Agora, substitua todo o código do arquivo `app/views/posts/index.html.erb`, pel
 <% end %>
 
 <h1>
-  Posts
+  Você pode mudar para o nome que quizer
 </h1>
 <div class="adicionar-post">
   <%= link_to(new_post_path, title: 'Adicionar post') do %>
-    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Adicionar post
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 
   <% end %>
 </div>
 
@@ -54,21 +54,21 @@ Agora, substitua todo o código do arquivo `app/views/posts/index.html.erb`, pel
       <p class="details">
         <% if post.published_date > DateTime.now %>
           <%= link_to(publicar_path(post), title: 'Publicar post', class: 'publicar-post') do %>
-            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-ok" aria-hidden="true">Publicado em:</span>
           <% end %>
         <% end %>
         <%= link_to(post, title: "Visualizar post") do %>
-          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-zoom-in" aria-hidden="true">Vizualizar</span>
         <% end %>
         <%= link_to(edit_post_path(post), title: 'Editar post') do %>
-          <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-edit" aria-hidden="true">Editar</span>
         <% end %>
         <%= link_to(post, method: :delete, data: { confirm: 'Você tem certeza?' }, title: 'Excluir post') do %>
-          <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-trash" aria-hidden="true">Excluir</span>
         <% end %>
         <span class="date">
-          <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> <%= post.published_date.strftime("%b, %m %Y") %>
-          <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%= post.author %>
+          <span class="glyphicon glyphicon-calendar" aria-hidden="true">Publicado em:</span> <%= post.published_date.strftime("%b, %m %Y") %>
+          <span class="glyphicon glyphicon-user" aria-hidden="true">Autor: </span> <%= post.author %>
         </span>
       </p>
     </div>

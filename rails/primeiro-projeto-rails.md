@@ -84,20 +84,6 @@ Pode ser que o inicio "node20" ou o final do link apos os ":" esteja direferete,
 ![Caminho para chegar a configuração do nosso workspace](../images/rails/link_correto_pelo_server.png)
 
 
-### Uma observação muito importante!
-
-Estamos trabalhando com  uma ferremante free, e como toda ferramenta que é de acesso gratuito temos algumas limitações. O codenvy tem um tempo de 10 minutos para deixar o workspace ativo e com nossa aplicação rodando. 
-Nesse caso em algun momento vomos precisar digitar a sequencia de comandos abaixo para rodar nossa aplicação novamente: 
-
-```sh
-cd railsgirls
-
-bundle install
-
-rails server
-```
-Quando rodarmos novamente o comando para a nossa aplicação funcionar,  nosso link de acesso pode alterar, e vamos precisar buscar novamente nas informações de _server_.
-
 # Temos mais uns erros aqui!
 
 Vamos ver o que temos aparece no navegador agora. Como já executamos o comando para rodar nossa aplicação noo codenvy, não precisamos executá-lo novamente (a não ser na situação do workspace ter atingido o tempo limite).
@@ -136,3 +122,18 @@ $ rake db:migrate
 Lindo!! Apareceu a tela de que indica que tudo está funcionando de novo! :D
 
 Ok, mas onde estão os nossos posts?
+
+
+### Uma observação muito importante!
+
+Estamos trabalhando com  uma ferremante free, e como toda ferramenta que é de acesso gratuito temos algumas limitações. O codenvy tem um tempo de 10 minutos para deixar o workspace ativo e com nossa aplicação rodando. 
+Nesse caso em algun momento vomos precisar digitar a sequencia de comandos abaixo para rodar nossa aplicação novamente: 
+
+```sh
+cd railsgirls
+
+rake db:migrate
+
+rails server
+```
+Quando rodarmos novamente o comando para a nossa aplicação funcionar,  nosso link de acesso pode alterar, e vamos precisar buscar novamente nas informações de _server_.

@@ -1,6 +1,6 @@
 # Publicando posts
 
-Ok, esse vai ser grande! Vamos com calma, qualquer dúvida, chame sua coach <3
+Ok, esse vai ser grande! Vamos com calma, qualquer dúvida, chame uma treinadora <3
 
 
 Então... vamos criar um método para atualizar a data de publicação do nosso post para a data atual. Bora?
@@ -103,7 +103,7 @@ format.html { redirect_to posts_url, notice: 'Algum erro aconteceu ao tentar pub
 O método completo deve ficar assim:
 
 ```ruby
-def publicar
+  def publicar
     @post.published_date = DateTime.now
 
     respond_to do |format|
@@ -111,8 +111,8 @@ def publicar
         format.html { redirect_to posts_url, notice: 'Post publicado com sucesso.' }
         format.json { render :show, status: :ok, location: @post }
       else
-          format.html { redirect_to posts_url, notice: 'Algum erro aconteceu ao tentar publicar o post :(' }
-	        format.json { head :no_content }
+        format.html { redirect_to posts_url, notice: 'Algum erro aconteceu ao tentar publicar o post :(' }
+        format.json { head :no_content }
       end
     end
   end
@@ -146,7 +146,8 @@ As views são basicamente o **HTML** onde vamos mostrar nossos dados, ou seja, o
 Vamos abrir o arquivo `app/views/posts/index.html.erb`:
 
 ```html
-<h1>Listing posts</h1>
+
+<h1>Post</h1>
 
 <table>
   <thead>
@@ -254,7 +255,7 @@ Nessa linha temos um parágrafo em **HTML**, que irá mostrar a mensagem (variá
 Agora, seu `index.html.erb` deve estar assim:
 
 ```html
-<h1>Listing posts</h1>
+<h1>Post</h1>
 
 <p id="notice"><%= notice %></p>
 
