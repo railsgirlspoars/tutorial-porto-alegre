@@ -43,7 +43,3 @@
   * [Alterando a página principal](rails/layout_pagina_principal.md)
   * [Mudando o estilo do blog](rails/css_blog.md)
 * [Até Logo](conclusao/ate_logo.md)
-* [Codeanywhere (Eventos Anteriores)](codeanywhere/codeanywhere.md)
-  * [O que é o Codeanywhere?](codeanywhere/o_que_e.md)
-  * [Criando uma conta](codeanywhere/criando_conta.md)
-  * [Criando um container](codeanywhere/criando_container.md)

@@ -12,5 +12,13 @@ A equipe Rails Girls POA agradece <3
 E venha nos ajudar sendo uma treinadora nas próximas edições ou participando da coordenação.
 
 Qualquer coisa, nosso contatinho ;)
+
+Você nos encontra :
+
 railsgirlspoa@gmail.com
+
+https://www.instagram.com/railsgirlspoa/
+
+https://www.facebook.com/railsgirlspoa/
+
 ![Rails Girls Poa](../images/rails_girls.png)
