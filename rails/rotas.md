@@ -1,11 +1,10 @@
 # Procurando os posts
 
-
 Agora vamos aprender algo novo do Rails: as `rotas`, que nada mais são do que caminhos que o Rails cria ao criarmos algo novo. Isso tudo acontece naquele primeiro comando que executamos para criar o Post (rails scaffold...), lembra?
 
 As rotas, ficam num arquivos chamado `routes.rb`, você pode encontrar ele na pasta `config`, dentro da pasta do projeto. Vamos abrir esse arquivo, nele, deve haver uma linha com o conteúdo abaixo:
 
-```
+```sh
 resources :posts
 ```
 
@@ -19,9 +18,10 @@ Você pode aprender mais sobre rotas nos seguintes links:
 
 Agora, se formos no navegador, naquele endereço que fomos antes, mas adicionando `/posts` no fim, como o exemplo:
 
+```sh
+http://node18.codenvy.io:39025/posts
 ```
-https://railsgirls-carolinemoers694501.codeanyapp.com/posts
-```
+PS:Lembrando que a parte inicial do link é a da sua aplicação.
 
 Vamos ver a imagem abaixo. Uhuul!! Podemos criar nossos posts agora :D
 
@@ -49,7 +49,7 @@ Rails.application.routes.draw do
   resources :posts
 ```
 
-Nós adicionamos a linha root `posts#index`, que diz ao Rails que ao acessarmos `https://railsgirls-carolinemoers694501.codeanyapp.com` (no seu caso essa url vai ser um pouco diferente) ele deve enviar para a tela dos posts na ação index (logo falaremos sobre ações :))
+Nós adicionamos a linha root `posts#index`, que diz ao Rails que ao acessarmos `http://node18.codenvy.io:39025` (no seu caso essa url vai ser um pouco diferente) ele deve enviar para a tela dos posts na ação index (logo falaremos sobre ações :))
 
 ### E quando acessamos no navegador agora...
 
