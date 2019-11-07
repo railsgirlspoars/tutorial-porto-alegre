@@ -38,7 +38,7 @@ Primeiro vamos abrir o arquivo `config/environments/development.rb`. Este arquiv
 Na linha 3, vamos adicionar o seguinte texto:
 
 ```ruby
-config.hosts << ENV['RAILS_ALLOWED_HOST'].gsub('https://', '')
+config.hosts << ENV['RAILS_ALLOWED_HOST'].gsub('https://', '') if ENV['RAILS_ALLOWED_HOST']
 ```
 
 Esta linha adiciona aos hosts possíveis todos os hosts existentes na variável RAILS_ALLOWED_HOST. A função `gsub` apenas substitui o `https://` com um texto vazio.
