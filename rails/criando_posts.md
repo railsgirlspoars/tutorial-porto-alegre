@@ -11,6 +11,51 @@ Podemos preencher os campos com as informações do post e clicar no botão **Cr
 
 Após clicar no botão **Create Post**, vamos ir para uma página e vai ter a lista com os post que criamos.
 
+### Erro com o Authenticity Token
+
+Caso você encontrar o erro abaixo, vamos ter que fazer uma pequena alteração no código.
+
+![Erro do token de autenticação](../images/rails/authenticity_token_error.png)
+
+Este erro ocorre porque estamos acessando uma aplicação que está rodando numa máquina em outro domínio. Para resolvermos isso para os fins deste tutorial, vamos acessar o arquivo `app/controllers/posts_controller.rb`
+
+Na segunda linha, vamos adicionar o seguinte código:
+
+```ruby
+  skip_before_action :verify_authenticity_token
+```
+
+Em seguida, vamos reiniciar o servidor e vamos criar um post novamente.
+
+Ué? Não aparece nada!
+
+Se você atualizar a tela, verá que o post foi criado. Mas não queremos ter que fazer isso todas as vezes não é mesmo? Então vamos fazer algumas modificações para que o projeto redirecione para a URL correta da nossa página inicial.
+
+### Configurando o host
+
+Primeiro vamos abrir o arquivo `config/environments/development.rb`. Este arquivo contém diversas configurações para que possamos executar localmente o projeto.
+
+Na linha 3, vamos adicionar o seguinte texto:
+
+```ruby
+  config.hosts << ENV['RAILS_ALLOWED_HOST'].gsub('https://', '')
+
+```
+
+Esta linha adiciona aos hosts possíveis todos os hosts existentes na variável RAILS_ALLOWED_HOST. A função `gsub` apenas substitui o `https://` com um texto vazio.
+
+Vamos salvar o arquivo e a partir de agora vamos iniciar o servidor com o seguinte comando:
+
+```ruby
+RAILS_ALLOWED_HOST=$(gp url 3000) bundle exec rails s -b 0.0.0.0 -p 3000
+```
+
+Mas que coisa complicada! Calma, vamos por partes:
+
+`RAILS_ALLOWED_HOST` é a variável que estamos utilizando para identificar os hosts aceitos pela aplicaçao. Em seguida, com `=$(gp url 3000)`, estamos atribuindo um valor a ela. `gp url 3000` é um comando do `Gitpod`. Ele pega a url que estamos usando para enxergar a aplicação no browser e indica a porta 3000. Em seguida, usamos o comando rails que a gente já conhece `bundle exec rails s -b 0.0.0.0 -p 3000` usando o `-b` para indicar o IP (no caso estamos dizendo que não queremos localhost) e `-p` para indicar a porta.
+
+A partir de agora vamos ser sempre redirecionados para a URL correta.
+
 ![Post criado](../images/rails/post_criado.png)
 
 A tela vai ter os dados do post que acabamos de criar, e uma mensagem de que foi criado com sucesso.
