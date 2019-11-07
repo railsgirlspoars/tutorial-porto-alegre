@@ -50,7 +50,7 @@ Vamos adicionar as linhas em destaque no arquivo, isso vai adicionar o `bootstra
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rails Girls</title>
+    <title>Railsgirls</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -63,9 +63,14 @@ Vamos adicionar as linhas em destaque no arquivo, isso vai adicionar o `bootstra
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
     <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+
   <body>
     <%= yield %>
   </body>

@@ -4,7 +4,7 @@ Não queremos deixar uma bagunça, então vamos remover tudo o que fizemos até 
 
 Primeiro precisamos voltar para a pasta projects:
 
-```
+```sh
 $ cd ..
 ```
 
@@ -14,10 +14,8 @@ Veja se você se encontra na pasta projects:
 
 ```
 $ pwd
-/projects
+/workspace/railsgirls
 ```
-
-Se não está, continue digitando o comando cd .. até chegar na pasta.
 
 Agora é hora de excluir o diretório **umapasta**.
 
@@ -25,15 +23,17 @@ Agora é hora de excluir o diretório **umapasta**.
 
 Então, tenha cuidado com este comando.
 
-```
+```sh
 $ rm -r umapasta
 ```
 
 Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
 
-```
+```sh
 $ ls
+Dockerfile railsgirls
 ```
 
-Se não houver retorno, é por que foi removida com sucesso. É possível notar também na parte acima do terminal, que não haverá mais informações do seu projeto e do seu arquivo criado anteriormente.
-Por enquanto é isso! 
+É possível observar que `umapasta` não existe mais. Estamos apenas com o Dockerfile e a pasta do projeto.
+
+Por enquanto é isso!

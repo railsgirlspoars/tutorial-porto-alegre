@@ -93,7 +93,7 @@ $ rake db:migrate
 Vamos digitar no terminal o seguinte comando novamente:
 
 ```sh
-bundle exec raisl server
+bundle exec rails server
 ```
 
 ![Blog funcionando](../images/rails/rails_inicial.png)
