@@ -6,7 +6,7 @@ Use os comandos cd e mkdir.
 
 **Solução**
 
-```
+```sh
 $ cd umapasta
 $ mkdir teste
 $ ls

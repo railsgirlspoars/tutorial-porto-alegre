@@ -39,7 +39,7 @@ irb(main):003:0>
 
 ## Tipos básicos no Ruby
 
-Nas variáveis que guardamos nossos dados e eles podem ser de vários tipos:
+Nas variáveis é onde guardamos nossos dados e eles podem ser de vários tipos:
 
 * Números inteiros: **Integer**
 * Números decimais: **Float**
@@ -47,4 +47,4 @@ Nas variáveis que guardamos nossos dados e eles podem ser de vários tipos:
 * Valores lógicos (verdadeiro ou falso): **True** e **False**
 * Lista de valores: **Array**
 
-Nós vamos falar um pouquinho sobre cada um tipos nas próximas sessões :)
+Nós vamos falar um pouquinho sobre cada um dos tipos nas próximas sessões :)

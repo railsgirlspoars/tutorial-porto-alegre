@@ -2,15 +2,15 @@
 
 Para entrar na pasta, digite o seguinte comando:
 
-```
+```sh
 $ cd umapasta
 ```
 
 Veja se realmente entramos na pasta:
 
-```
+```sh
 $ pwd
-/projects/umapasta
+/workspace/railsgirls/umapasta
 ```
 Aqui está!
 
