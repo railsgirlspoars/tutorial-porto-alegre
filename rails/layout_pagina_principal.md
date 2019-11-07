@@ -38,11 +38,11 @@ Agora, substitua todo o código do arquivo `app/views/posts/index.html.erb`, pel
 <% end %>
 
 <h1>
-  Você pode mudar para o nome que quizer
+  Você pode mudar para o nome que quiser
 </h1>
 <div class="adicionar-post">
   <%= link_to(new_post_path, title: 'Adicionar post') do %>
-    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 
+    <span class="glyphicon glyphicon-plus" aria-hidden="true">Novo Post</span>
   <% end %>
 </div>
 
