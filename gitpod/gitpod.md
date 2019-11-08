@@ -1,4 +1,4 @@
-# Codenvy
+# Gitpod
 
 ## Preparação do ambiente
 
