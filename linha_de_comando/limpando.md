@@ -2,7 +2,7 @@
 
 Não queremos deixar uma bagunça, então vamos remover tudo o que fizemos até agora.
 
-Primeiro precisamos voltar para a pasta projects:
+Primeiro precisamos voltar para a pasta acima, para que possamos remover a `umapasta`:
 
 ```sh
 $ cd ..
@@ -10,7 +10,7 @@ $ cd ..
 
 Fazendo cd para .. nós mudaremos do diretório atual para o diretório pai (que significa o diretório que contém o diretório atual).
 
-Veja se você se encontra na pasta projects:
+Veja se você se encontra na railsgirls:
 
 ```
 $ pwd

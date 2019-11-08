@@ -1,6 +1,6 @@
 # Trabalhando com layouts
 
-Layouts são `views`, que criam uma estrutura padrão para o nosso site. Esses layouts ficam em `app/layouts`. Por padrão, temos o arquivo `application.html.erb`, que vai estar “em volta” de todas as nossas demais views.
+Layouts são `views`, que criam uma estrutura padrão para o nosso site. Esses layouts ficam em `app/views/layouts`. Por padrão, temos o arquivo `application.html.erb`, que vai estar “em volta” de todas as nossas demais views.
 Vamos abrir o arquivo, em `app/views/layouts/application.html.erb`. Ele deve parecer assim:
 
 ```html

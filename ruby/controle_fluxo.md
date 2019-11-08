@@ -8,7 +8,7 @@ Por exemplo, vamos imprimir no método `escrever_nome` criado na seção anterio
 
 ```ruby
 if nome != ''
-  "Seu nome é " + nome
+  "Seu nome e " + nome
 end
 ```
 
@@ -16,7 +16,7 @@ Outra forma de implementar seria utilizando o método `empty?`, que significa _v
 
 ```ruby
 if !nome.empty?
-  "Seu nome é " + nome
+  "Seu nome e " + nome
 end
 ```
 
@@ -25,7 +25,7 @@ E nosso método ficaria assim:
 ```ruby
 def escrever_nome(nome)
   if !nome.empty?
-    "Seu nome é " + nome
+    "Seu nome e " + nome
   end
 end
 ```

@@ -25,7 +25,7 @@ Formas para acessar os dados:
 ```ruby
 (irb)> coaches[0]    # Carol
 (irb)> coaches.at(0) # Carol
-(irb)> coaches.fetch(10, "Não encontrado!") # Não encontrado!
+(irb)> coaches.fetch(10, "Nao encontrado!") # Nao encontrado!
 (irb)> coaches[-2]   # Carol
 (irb)> coaches.values_at(1,10) # ["Dessa", nil]
 ```
@@ -43,7 +43,7 @@ Removendo dados:
 
 ```ruby
 (irb)> coaches.pop                     # "Maria"
-(irb)> coaches.shift                   # "Carol"
+(irb)> coaches.shift                   # "123"
 (irb)> coaches.delete_at 2             # "Andri"
 (irb)> coaches.delete "qualquer coisa" # qualquer coisa
 ```

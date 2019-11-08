@@ -21,7 +21,7 @@ evento_feio = false
 # true
 (irb)> !true
 # false
-(irb)> tutora_feliz == 1
+(irb)> evento_feio == 1
 # false
 (irb)> false.to_s
 # "false"

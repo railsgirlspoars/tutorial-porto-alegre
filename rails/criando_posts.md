@@ -69,7 +69,7 @@ Vamos mudar isso?
 
 Vamos começar a mexer no código agora :D
 
-Vamos abrir o arquivo `posts_controlles.rb`, que é o arquivo que controla todas as ações sobre os posts (lembra que comentamos sobre isso ao criar a rota?). Ele está em `app/controllers/posts_controller.rb`
+Vamos abrir o arquivo `posts_controller.rb`, que é o arquivo que controla todas as ações sobre os posts (lembra que comentamos sobre isso ao criar a rota?). Ele está em `app/controllers/posts_controller.rb`.
 
 Esse arquivo tem vários _métodos_ (lembra como são métodos no ruby?), que estão separados nas ações de criar (_create_), atualizar (_update_), excluir (_destroy_), _index_ (lembra a ação que colocamos no routes.rb?) - esta será a ação que lista todos nossos posts, _show_ (mostrar o post).
 
