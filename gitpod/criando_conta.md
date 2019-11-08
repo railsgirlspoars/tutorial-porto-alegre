@@ -6,6 +6,10 @@ Quando você acessar o link indicado na seção anterior e não estiver já loga
 
 ![Tela inicial para criar conta](../images/gitpod/tela_inicial_sem_cadastro_gitpod.png)
 
+Vamos clicar no botão `Login with GitHub & launch workspace`. Você verá a tela a seguir. Se tiver uma conta do GitHub, é só colocar seu usuário e senha. Caso contrário, cliquei em `Create and account` bem embaixo da tela. Para criar uma nova conta você será redirecionada para um formulário pedindo nome, email, usuário e senha. Preencha este formulário.
+
+![Tela inicial github](../images/gitpod/nova_conta_gitpod.png)
+
 # Escolha o plano FREE
 
 Depois de inserir seus dados para uma nova conta, escolha o plano gratuito clicando em `Choose Free`.
