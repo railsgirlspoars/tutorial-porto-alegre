@@ -1,6 +1,8 @@
 ## Criando uma pasta
 
-Que tal tentar criar um diretório na sua área de trabalho? Para enxergarmos o nosso diretório com maior facilidade, vamos primeiro sair da pasta do projeto (você pode observar na lista de arquivos da esquerda que temos vaaaarios arquivos que vão dificultar encontrarmos nossa nova pasta). Nós vamos, então, subir um nível de pasta, ou seja, vamos de `/workspace/railsgirls/railsgirls` para `/workspace/railsgirls` com o comando a seguir:
+Que tal tentar criar um diretório na sua área de trabalho?
+
+Para enxergarmos o nosso diretório com maior facilidade, vamos garantir que não estamos na pasta do projeto(você pode observar na lista de arquivos da esquerda que temos vaaaarios arquivos que vão dificultar encontrarmos nossa nova pasta). Se ao executar um `pwd` você estiver em `/workspace/railsgirls/railsgirls`, nós vamos subir um nível de pasta. Isto quer dizer que vamos para `/workspace/railsgirls` com o comando a seguir:
 
 ```sh
 $ cd ..
