@@ -11,6 +11,8 @@ Podemos preencher os campos com as informações do post e clicar no botão **Cr
 
 Após clicar no botão **Create Post**, vamos ir para uma página e vai ter a lista com os post que criamos.
 
+Se você encontrar um erro nesta etapa e não for redirecionada para a lista com os posts, não se desespere! A gente já vai arrumar ele.
+
 ### Erro com o Authenticity Token
 
 Caso você encontrar o erro abaixo, vamos ter que fazer uma pequena alteração no código.
