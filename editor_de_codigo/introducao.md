@@ -6,7 +6,7 @@ Existem muitos editores diferentes e em grande parte se resume a preferência pe
 
 Para o tutorial, usaremos o editor do Gitpod. Você verá que nós já temos o nosso projeto no canto esquerdo, onde mostra todos os arquivos dele. Não se assuste, apenas saiba que o projeto já foi criado :)
 
-A imagem abaixo mostra um arquivo qualquer do nosso projeto sendo exibido dentro do editor do Gitpod, que é o que usaremos. Este editor se chama VisuaStudio Code e você pode instalar ele localmente na sua máquina em casa.
+A imagem abaixo mostra um arquivo qualquer do nosso projeto sendo exibido dentro do editor do Gitpod, que é o que usaremos. Este editor se chama VisualStudio Code e você pode instalar ele localmente na sua máquina em casa.
 
 ![Criando novo projeto](../images/editor_de_codigo/editor_gitpod.png)
 

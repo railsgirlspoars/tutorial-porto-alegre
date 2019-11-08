@@ -17,14 +17,14 @@ Esse tipo é chamado **String**.
 Formas de trabalhar com **Strings**:
 
 ```ruby
-(irb)> "O resultado é #{5 + 2}"
-"O resultado é 7"
+(irb)> "O resultado e #{5 + 2}"
+"O resultado e 7"
 (irb)> "Estou no " + evento
 # "Estou no Rails Girls"
 (irb)> '1' * 5
 # 11111
-(irb)> 'Ê!' * 5
-# Ê!Ê!Ê!Ê!Ê!
+(irb)> 'E!' * 5
+# E!E!E!E!E!E!
 ```
 
 ```ruby

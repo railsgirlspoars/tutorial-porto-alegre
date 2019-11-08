@@ -59,7 +59,7 @@ bundle exec rails server
 
 ### E quando acessamos no navegador agora...
 
-Acessando a url sem o `/post` no final, vamos ver a tela abaixo!
+Acessando a url sem o `/posts` no final, vamos ver a tela abaixo!
 
 ![Lista de Posts](../images/rails/lista_posts.png)
 

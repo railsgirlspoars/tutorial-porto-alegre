@@ -6,4 +6,4 @@ Para desenvolver o nosso projeto, sem ter que instalar ferramentas direto na má
 
 Se você quiser saber mais sobre a ferramente, pode acessar [https://www.gitpod.io/](https://www.gitpod.io/)!
 
-Hoje, nós vamos acessar diretamente o nosso projeto acessando o link [gitpod.io/#https://github.com/railsgirlspoars/railsgirls](https://gitpod.io/#https://github.com/railsgirlspoars/railsgirls).
+Hoje, nós vamos acessar diretamente o nosso projeto utilizando o link [gitpod.io/#https://github.com/railsgirlspoars/railsgirls](https://gitpod.io/#https://github.com/railsgirlspoars/railsgirls).
